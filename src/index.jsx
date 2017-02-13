@@ -450,7 +450,6 @@ export default React.createClass({
       : <FormControl
           onKeyDown={this.handleKeyDown}
           value={this.state.inputValue || ''}
-          name={this.props.name}
           ref="input"
           type="text"
           className={this.props.className}
