@@ -317,6 +317,9 @@ export default React.createClass({
   },
 
   handleBlur() {
+    if (this.state.inputValue === '') {
+      this.clear();
+    }
     this.setState({
       inputFocused: false
     });
