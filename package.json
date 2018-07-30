@@ -21,7 +21,7 @@
   },
   "peerDependencies": {
     "react": ">=0.14.0",
-    "react-bootstrap": "^0.30.2"
+    "react-bootstrap": "^0.32.1"
   },
   "devDependencies": {
     "assert": "*",
@@ -34,6 +34,7 @@
     "babel-preset-react": "*",
     "babel-preset-stage-1": "*",
     "co": "*",
+    "create-react-class": "^15.6.3",
     "envify": "*",
     "es6-promise": "*",
     "eslint": "^3.7.1",
@@ -53,6 +54,7 @@
     "mocha": "*",
     "mocha-babel": "*",
     "node-uuid": "*",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
@@ -60,8 +62,7 @@
     "regenerator-loader": "*",
     "transform-loader": "*",
     "webpack": "*",
-    "webpack-dev-server": "*",
-    "prop-types": "^15.6.2"
+    "webpack-dev-server": "*"
   },
   "scripts": {
     "example": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base example/ --config ./example/webpack.example.config.js",

@@ -1,7 +1,8 @@
 // See http://jszen.blogspot.com/2007/03/how-to-build-simple-calendar-with.html for calendar logic.
 
 import React from 'react';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 import ReactDOM from 'react-dom';
 import {
   Button,
@@ -14,7 +15,7 @@ import moment from 'moment';
 
 let instanceCount = 0;
 
-const CalendarHeader = React.createClass({
+const CalendarHeader = createReactClass({
   displayName: 'DatePickerHeader',
 
   propTypes: {
@@ -52,7 +53,7 @@ const CalendarHeader = React.createClass({
 
 const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-const Calendar = React.createClass({
+const Calendar = createReactClass({
   displayName: 'DatePickerCalendar',
 
   propTypes: {
@@ -156,7 +157,7 @@ const Calendar = React.createClass({
   }
 });
 
-export default React.createClass({
+export default createReactClass({
   displayName: 'DatePicker',
 
   propTypes: {
