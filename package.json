@@ -1,5 +1,5 @@
 {
-  "name": "react-bootstrap-date-picker-patched",
+  "name": "react-bootstrap-date-picker-react16",
   "keywords": [
     "react",
     "react-component",
@@ -12,7 +12,7 @@
   ],
   "main": "lib/index.js",
   "version": "4.0.2",
-  "description": "React-Bootstrap based date picker.",
+  "description": "React-Bootstrap based date picker adjusted to React 16.",
   "directories": {
     "test": "test"
   },
